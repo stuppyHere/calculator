@@ -1,19 +1,47 @@
-# React + Vite
+# React Calculator 🧮
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calculator built with React. This project helped me practise React state, event handling, and basic JavaScript error handling.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Percentage operator
+- Decimal numbers
+- Clear display using the AC button
+- Error handling for invalid expressions
+- Interactive calculator interface
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
-## Expanding the ESLint configuration
+## 📖 How to Use
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Click the number buttons to enter an expression.
+2. Use the arithmetic operators to build your calculation.
+3. Press `=` to evaluate the expression.
+4. Press `AC` to clear the display.
+
+## 🎯 What I Learned
+
+- Managing display values with React's `useState`
+- Handling button clicks with event handlers
+- Updating state using callback functions
+- Using `try...catch` for error handling
+- Building a calculator layout with CSS Grid
+
+## 🔮 Future Improvements
+
+- Improve expression validation
+- Add backspace functionality
+- Improve calculation logic and error handling
+- Add keyboard support
+
+---
+
+Built as a hands-on learning project while improving my React and JavaScript skills.
