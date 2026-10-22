@@ -12,7 +12,7 @@ function Layout() {
 
  function execute(){
   try{
-    setOutput(eval(output))
+    setOutput(eval(output).toFixed(2))
   }catch(error){
     setOutput("ERROR")
   }
